@@ -1,3 +1,4 @@
+---
 
 ## 📄 `README.md`
 
@@ -77,7 +78,5 @@ Snake-Game/
 
 Created by [Vasilis Kokotakis](https://github.com/VasilisKokotakis)
 
-```
 
----
 
