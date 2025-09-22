@@ -1,8 +1,4 @@
 
-
-## 📄 `README.md`
-
-````markdown
 # 🐍 Snake Game
 
 A simple **classic Snake Game** built with Python's `turtle` module.  
