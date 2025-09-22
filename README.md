@@ -67,6 +67,11 @@ Snake-Game/
 * Difficulty increase as snake grows.
 * Pause/Resume functionality.
 
+---
+
+## 📸 Screenshots
+
+*(Add screenshots later if you’d like)*
 
 ---
 
@@ -74,5 +79,6 @@ Snake-Game/
 
 Created by [Vasilis Kokotakis](https://github.com/VasilisKokotakis)
 
+```
 
 
