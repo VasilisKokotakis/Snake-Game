@@ -1,5 +1,10 @@
 
-# 🐍 Snake Game
+
+---
+
+## 🐍 Snake Game
+
+````markdown
 
 A simple **classic Snake Game** built with Python's `turtle` module.  
 The game was created as a learning project to practice Python OOP concepts.  
@@ -79,6 +84,5 @@ Snake-Game/
 
 Created by [Vasilis Kokotakis](https://github.com/VasilisKokotakis)
 
-```
 
 
