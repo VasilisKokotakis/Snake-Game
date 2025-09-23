@@ -1,82 +1,72 @@
 
-
 ---
 
-## 🐍 Snake Game
+# 🐍 Snake Game
 
-````markdown
-
-A simple **classic Snake Game** built with Python's `turtle` module.  
-The game was created as a learning project to practice Python OOP concepts.  
+A simple **Snake Game** built with Python's `turtle` module.
+The game features score tracking, high score persistence, and smooth snake movement.
 
 ---
 
 ## 🎮 How to Play
-- Use the **Arrow Keys** to control the snake:
-  - ⬆️ Up
-  - ⬇️ Down
-  - ⬅️ Left
-  - ➡️ Right
-- Eat the **blue food** to grow your snake.
-- Each piece of food increases your score by **1**.
-- The game ends if:
-  - You hit the **wall**.
-  - You hit your own **tail**.
 
----
+* Use the **arrow keys** (`Up`, `Down`, `Left`, `Right`) to control the snake.
+* Eat the **blue food** to grow your snake and increase your score.
+* Avoid:
 
-## 🛠️ Installation & Running
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/VasilisKokotakis/Snake-Game.git
-   cd Snake-Game
-````
-
-2. Run the game:
-
-   ```bash
-   python3 main.py
-   ```
-
-> 💡 Make sure you have Python 3 installed.
+  * Hitting the **walls**.
+  * Running into your **own tail**.
+* The game automatically resets when you collide, but your **high score** is saved in `data.txt`.
 
 ---
 
 ## 📂 Project Structure
 
 ```
-Snake-Game/
-│
-├── main.py        # Main game loop
-├── snake.py       # Snake class
-├── scoreboard.py  # Scoreboard class
-└── food.py        # Food class
+snake-game/
+│── main.py         # Entry point of the game
+│── snake.py        # Snake class (movement, growth, reset)
+│── food.py         # Food class (random spawn, refresh)
+│── scoreboard.py   # Scoreboard with high score persistence
+│── data.txt        # Stores high score (created automatically if missing)
 ```
 
 ---
 
-## ✨ Features
+## 🚀 How to Run
 
-* Snake grows every time it eats food.
-* Scoreboard at the top tracks your points.
-* Game Over screen when you crash into wall or yourself.
-* Simple & clean OOP code structure.
+1. Make sure you have **Python 3.7+** installed.
+2. Clone or download this repository.
+3. Run the game with:
 
----
-
-## 🚀 Future Improvements (optional ideas)
-
-* Restart button without closing the window.
-* High score tracking.
-* Difficulty increase as snake grows.
-* Pause/Resume functionality.
+   ```bash
+   python main.py
+   ```
 
 ---
 
-## 👤 Author
+## 🛠 Features
 
-Created by [Vasilis Kokotakis](https://github.com/VasilisKokotakis)
+* 🐍 Smooth snake movement
+* 🍎 Random food spawning
+* 🏆 High score tracking (stored in `data.txt`)
+* 🔄 Auto-reset after collisions
 
+---
 
+## 📖 Requirements
+
+* No external libraries needed.
+* Uses only Python’s **built-in `turtle` and `random` modules**.
+
+---
+
+## 🌟 Future Improvements (Ideas)
+
+* Add difficulty levels (increasing speed over time).
+* Add sound effects.
+* Add a start/restart menu.
+* Track and display average session scores.
+
+---
 
