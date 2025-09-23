@@ -74,12 +74,6 @@ Snake-Game/
 
 ---
 
-## 📸 Screenshots
-
-*(Add screenshots later if you’d like)*
-
----
-
 ## 👤 Author
 
 Created by [Vasilis Kokotakis](https://github.com/VasilisKokotakis)
